@@ -13,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/crazejs/crazejs/issues"
   },
-  "homepage": "https://github.com/crazejs/crazejs/tree/master/packages/tsconfig#readme"
+  "homepage": "https://github.com/crazejs/crazejs/tree/master/packages/tsconfig#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }

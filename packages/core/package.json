@@ -30,6 +30,9 @@
     "url": "https://github.com/crazejs/crazejs/issues"
   },
   "homepage": "https://github.com/crazejs/crazejs/tree/master/packages/core#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@crazejs/tsconfig": "workspace:^"
   }
