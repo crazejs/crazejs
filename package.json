@@ -6,6 +6,7 @@
   "scripts": {
     "prepare": "",
     "dev": "pnpm turbo --parallel dev",
+    "changeset": "changeset",
     "ci:version": "changeset version",
     "ci:release": "turbo clean && turbo build && changeset publish"
   },
