@@ -2,7 +2,6 @@
 Welcome to CrazeJS!
 <div>
 
-[![build status](https://github.com/crazejs/crazejs/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/crazejs/crazejs/actions/workflows/ci.yml)
 [![license](https://img.shields.io/github/license/crazejs/crazejs.svg)](LICENSE)
 
 </div>

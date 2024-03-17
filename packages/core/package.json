@@ -34,6 +34,9 @@
     "access": "public"
   },
   "devDependencies": {
-    "@crazejs/tsconfig": "workspace:^"
+    "@crazejs/eslint-config": "workspace:^",
+    "@crazejs/tsconfig": "workspace:^",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.2"
   }
 }
