@@ -21,6 +21,9 @@
     "build": {
       "outputs": [".next/**", "public/**", "dist/**"],
       "dependsOn": ["^build"]
+    },
+    "clean": {
+      "cache": false
     }
   }
 }
