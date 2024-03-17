@@ -1,0 +1,17 @@
+{
+  "name": "@crazejs/tsconfig",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crazejs/crazejs.git",
+    "directory": "packages/tsconfig"
+  },
+  "bugs": {
+    "url": "https://github.com/crazejs/crazejs/issues"
+  },
+  "homepage": "https://github.com/crazejs/crazejs/tree/master/packages/tsconfig#readme"
+}
