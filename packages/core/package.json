@@ -16,7 +16,7 @@
   "scripts": {
     "dev": "nodemon --exec 'pnpm run build' --watch ./src",
     "build": "unbuild",
-    "lint": ""
+    "lint": "eslint \"{src,tests}/**/*.{js,jsx,ts,tsx}\""
   },
   "keywords": [],
   "author": "",
