@@ -15,5 +15,5 @@
     "noEmit": true,
     "lib": ["es2022", "dom", "dom.iterable"]
   },
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "dist"]
 }
