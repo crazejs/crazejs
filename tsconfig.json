@@ -1,0 +1,10 @@
+{
+  "extends": "@crazejs/tsconfig/base.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["packages", "scripts"]
+}

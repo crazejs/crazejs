@@ -1,4 +1,4 @@
 {
   "root": true,
-  "extends": ["@crazejs/eslint-config/base.js"]
+  "extends": ["@crazejs/eslint-config/baserc"]
 }
