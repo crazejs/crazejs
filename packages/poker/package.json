@@ -1,0 +1,46 @@
+{
+  "name": "@crazejs/poker",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "nodemon --exec \"pnpm run build\" --watch ./src",
+    "build": "unbuild",
+    "lint": "eslint \"{src,tests}/**/*.{js,jsx,ts,tsx}\""
+  },
+  "keywords": [],
+  "author": "Anguer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crazejs/crazejs.git",
+    "directory": "packages/poker"
+  },
+  "bugs": {
+    "url": "https://github.com/crazejs/crazejs/issues"
+  },
+  "homepage": "https://github.com/crazejs/crazejs/tree/master/packages/poker#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@crazejs/eslint-config": "workspace:^",
+    "@crazejs/tsconfig": "workspace:^",
+    "@types/lodash.shuffle": "^4.2.9",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "lodash.shuffle": "^4.2.0"
+  }
+}

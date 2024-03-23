@@ -1,0 +1,6 @@
+{
+  "root": true,
+  "extends": [
+    "@crazejs/eslint-config/baserc"
+  ]
+}

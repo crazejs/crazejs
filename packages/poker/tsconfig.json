@@ -1,0 +1,14 @@
+{
+  "extends": "@crazejs/tsconfig/base.json",
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "ESNext",
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+//      "@/*": ["./src/*"],
+    }
+  },
+  "include": [
+    "src"
+  ]
+}
