@@ -1,8 +1,4 @@
 {
   "root": true,
-  "extends": ["@crazejs/eslint-config/base.js"],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "project": true
-  }
+  "extends": ["@crazejs/eslint-config/baserc"]
 }

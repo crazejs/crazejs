@@ -19,7 +19,7 @@
     "lint": "eslint \"{src,tests}/**/*.{js,jsx,ts,tsx}\""
   },
   "keywords": [],
-  "author": "",
+  "author": "Anguer",
   "license": "MIT",
   "repository": {
     "type": "git",
