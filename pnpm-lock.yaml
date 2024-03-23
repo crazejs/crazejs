@@ -139,6 +139,21 @@ importers:
         specifier: ^5.4.2
         version: 5.4.2
 
+  packages/tls-sig-api:
+    devDependencies:
+      '@crazejs/eslint-config':
+        specifier: workspace:^
+        version: link:../eslint-config
+      '@crazejs/tsconfig':
+        specifier: workspace:^
+        version: link:../tsconfig
+      eslint:
+        specifier: ^8.57.0
+        version: 8.57.0
+      typescript:
+        specifier: ^5.4.2
+        version: 5.4.2
+
   packages/tsconfig: {}
 
 packages:
