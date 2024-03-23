@@ -6,3 +6,23 @@
 
 </div>
 </h1>
+
+## About
+
+
+
+## Install
+
+```bash
+npm install @crazejs/poker
+
+# or
+yarn add @crazejs/poker
+
+# or
+pnpm add @crazejs/poker
+```
+
+
+## Usage
+
