@@ -1,7 +1,5 @@
 import { Card } from '../card';
 
-export const COUNT_BY_HOLE_CARDS: number = 3;
-
 export enum CardType {
   // 炸弹
   BOMB = 5,
@@ -230,6 +228,8 @@ function calcCardScore(cards: [Card, Card, Card], cardType: CardType) {
 }
 
 export class ThreeCardBrag {
+  static readonly COUNT_BY_HOLE_CARDS = 3;
+
   readonly cards: [Card, Card, Card];
 
   readonly cardType: CardType = CardType.NORMAL;
@@ -244,7 +244,7 @@ export class ThreeCardBrag {
   private readonly special235: boolean = false;
 
   constructor(...cards: Card[]) {
-    if (cards.length !== COUNT_BY_HOLE_CARDS) {
+    if (cards.length !== ThreeCardBrag.COUNT_BY_HOLE_CARDS) {
       throw new Error('Invalid card length.');
     }
 
