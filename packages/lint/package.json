@@ -46,11 +46,11 @@
     "@crazejs/tsconfig": "workspace:^",
     "eslint": "^8",
     "prettier": "^3",
-    "semantic-release": "^23",
     "typescript": "^5"
   },
   "peerDependencies": {
     "eslint": "^8",
-    "prettier": "^3"
+    "prettier": "^3",
+    "semantic-release": "^23"
   }
 }
