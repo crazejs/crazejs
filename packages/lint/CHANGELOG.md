@@ -1,5 +1,11 @@
 # @crazejs/lint
 
+## 0.0.4
+
+### Patch Changes
+
+- [`01d4c92`](https://github.com/crazejs/crazejs/commit/01d4c92b8741644ea7d0872f7ff87ba11070383c) Thanks [@anguer](https://github.com/anguer)! - fix release not work
+
 ## 0.0.3
 
 ### Patch Changes
