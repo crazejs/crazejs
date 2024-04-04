@@ -7,7 +7,7 @@
     "lint": "turbo lint",
     "clean": "turbo clean",
     "changeset": "changeset",
-    "ci:version": "changeset version",
+    "ci:version": "turbo build --filter=lint^... && changeset version",
     "ci:release": "turbo clean && turbo build && changeset publish",
     "create-pkg": "tsx scripts/create-package.ts",
     "prepare": "husky",
