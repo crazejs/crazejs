@@ -9,8 +9,9 @@
     "changeset": "changeset",
     "ci:version": "changeset version",
     "ci:release": "turbo clean && turbo build && changeset publish",
+    "create-pkg": "tsx scripts/create-package.ts",
     "prepare": "husky",
-    "create-pkg": "tsx scripts/create-package.ts"
+    "reinstall": "rimraf pnpm-lock.yaml && rimraf node_modules && pnpm install"
   },
   "keywords": [],
   "author": "",
