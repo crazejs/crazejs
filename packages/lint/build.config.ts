@@ -15,7 +15,6 @@ export default {
       ext: 'cjs',
       input: './src/',
       declaration: false,
-      // pattern: '**/!(*.stories).{js.jsx.ts.tsx}',
     },
   ],
   outDir: 'dist',
