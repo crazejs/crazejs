@@ -1,6 +1,6 @@
 {
-  "name": "@crazejs/poker",
-  "version": "0.0.2",
+  "name": "@crazejs/lint",
+  "version": "0.0.0",
   "description": "",
   "main": "./dist/index.cjs",
   "types": "./dist/index.d.ts",
@@ -16,7 +16,7 @@
   "scripts": {
     "dev": "nodemon --exec \"pnpm run build\" --watch ./src",
     "build": "unbuild",
-    "lint": "eslint \"{src,tests}/**/*.{js,jsx,ts,tsx}\" --fix"
+    "lint": ""
   },
   "keywords": [],
   "author": "Anguer",
@@ -24,23 +24,34 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/crazejs/crazejs.git",
-    "directory": "packages/poker"
+    "directory": "packages/lint"
   },
   "bugs": {
     "url": "https://github.com/crazejs/crazejs/issues"
   },
-  "homepage": "https://github.com/crazejs/crazejs/tree/master/packages/poker#readme",
+  "homepage": "https://github.com/crazejs/crazejs/tree/master/packages/lint#readme",
   "publishConfig": {
     "access": "public"
   },
-  "devDependencies": {
-    "@crazejs/lint": "workspace:^",
-    "@crazejs/tsconfig": "workspace:^",
-    "@types/lodash.shuffle": "^4.2.9",
-    "eslint": "^8.57.0",
-    "typescript": "^5.4.2"
-  },
   "dependencies": {
-    "lodash.shuffle": "^4.2.0"
+    "@typescript-eslint/eslint-plugin": "^7",
+    "@typescript-eslint/parser": "^7",
+    "commitlint-config-gitmoji": "^2",
+    "eslint-config-prettier": "^9",
+    "eslint-plugin-only-warn": "^1.1.0",
+    "eslint-plugin-prettier": "^5",
+    "semantic-release-config-gitmoji": "^1",
+    "unbuild": "^2"
+  },
+  "devDependencies": {
+    "@crazejs/tsconfig": "workspace:^",
+    "eslint": "^8",
+    "prettier": "^3",
+    "semantic-release": "^23",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "eslint": "^8",
+    "prettier": "^3"
   }
 }

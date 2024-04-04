@@ -17,7 +17,7 @@
     "dev": "nodemon --exec \"pnpm run build\" --watch ./src",
     "build": "unbuild",
     "test": "tsx test/index.spec.ts",
-    "lint": "eslint \"{src,tests}/**/*.{js,jsx,ts,tsx}\""
+    "lint": "eslint \"{src,tests}/**/*.{js,jsx,ts,tsx}\" --fix"
   },
   "keywords": [],
   "author": "Anguer",
@@ -35,7 +35,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@crazejs/eslint-config": "workspace:^",
+    "@crazejs/lint": "workspace:^",
     "@crazejs/tsconfig": "workspace:^",
     "eslint": "^8.57.0",
     "typescript": "^5.4.2"

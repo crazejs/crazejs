@@ -44,7 +44,7 @@ const createPkgConfig = ({ name, version, description, eslint, typescript, build
     scripts: {
       dev: build ? 'nodemon --exec "pnpm run build" --watch ./src' : '',
       build: build ? 'unbuild' : '',
-      lint: eslint ? 'eslint "{src,tests}/**/*.{js,jsx,ts,tsx}"' : '',
+      lint: eslint ? 'eslint "{src,tests}/**/*.{js,jsx,ts,tsx}" --fix' : '',
     },
     keywords: [],
     author: 'Anguer',
@@ -62,10 +62,10 @@ const createPkgConfig = ({ name, version, description, eslint, typescript, build
       access: 'public',
     },
     devDependencies: {
-      ...(eslint && { '@crazejs/eslint-config': 'workspace:^' }),
+      ...(eslint && { '@crazejs/lint': 'workspace:^' }),
       ...(typescript && { '@crazejs/tsconfig': 'workspace:^' }),
-      ...(eslint && { eslint: '^8.57.0' }),
-      ...(typescript && { typescript: '^5.4.2' }),
+      ...(eslint && { eslint: '^8' }),
+      ...(typescript && { typescript: '^5' }),
     },
   };
 };
