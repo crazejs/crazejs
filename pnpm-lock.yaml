@@ -90,7 +90,7 @@ importers:
   packages/lint:
     dependencies:
       '@commitlint/config-conventional':
-        specifier: ^19.1.0
+        specifier: ^19
         version: 19.1.0
       '@semantic-release/changelog':
         specifier: ^6
