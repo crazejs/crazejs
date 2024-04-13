@@ -1,5 +1,11 @@
 # @crazejs/lint
 
+## 0.0.5
+
+### Patch Changes
+
+- [`7be27c9`](https://github.com/crazejs/crazejs/commit/7be27c917bb93380fd6708bb3e2c808f3cce9335) Thanks [@anguer](https://github.com/anguer)! - v0.0.5
+
 ## 0.0.4
 
 ### Patch Changes
