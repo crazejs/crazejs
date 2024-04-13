@@ -16,6 +16,7 @@
   "scripts": {
     "dev": "nodemon --exec \"pnpm run build\" --watch ./src",
     "build": "unbuild",
+    "test": "tsx test/index.spec.ts",
     "lint": ""
   },
   "keywords": [],
@@ -34,11 +35,13 @@
     "access": "public"
   },
   "dependencies": {
+    "@semantic-release/changelog": "^6",
+    "@semantic-release/git": "^10",
     "@typescript-eslint/eslint-plugin": "^7",
     "@typescript-eslint/parser": "^7",
     "commitlint-config-gitmoji": "^2",
     "eslint-config-prettier": "^9",
-    "eslint-plugin-only-warn": "^1.1.0",
+    "eslint-plugin-only-warn": "^1",
     "eslint-plugin-prettier": "^5",
     "semantic-release-config-gitmoji": "^1"
   },
@@ -51,6 +54,6 @@
   "peerDependencies": {
     "eslint": "^8",
     "prettier": "^3",
-    "semantic-release": "^23"
+    "semantic-release": "^21"
   }
 }
