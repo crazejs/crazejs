@@ -1,5 +1,11 @@
 # @crazejs/lint
 
+## 0.0.8
+
+### Patch Changes
+
+- [`e55644f`](https://github.com/crazejs/crazejs/commit/e55644f38b676a334bae5163017cc8195fe530c3) Thanks [@anguer](https://github.com/anguer)! - update commitlint types
+
 ## 0.0.7
 
 ### Patch Changes
