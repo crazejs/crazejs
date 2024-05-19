@@ -1,0 +1,36 @@
+name: Bug report
+description: Create a report to help us improve
+title: "[Bug]: "
+labels: [':bug: bug', ':eyes: triage']
+body:
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug description
+      description: >-
+        请详细说明问题，并尽量具体。如果您找到了解决办法或修复方法，请告知我们维护人员（以及其他用户）。
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: >-
+        请创建一个包含问题最小重现的__zip文件__。
+      placeholder: |-
+        将包含最小重现的.zip文件拖放到这里。
+
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment & Versions
+      description: >-
+        请包含相关的版本信息：
+      placeholder: |-
+        Node.js version: ...
+        TypeScript version: ...
+        Operating system: ...
+    validations:
+      required: true

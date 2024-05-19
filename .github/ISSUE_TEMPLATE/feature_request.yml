@@ -1,0 +1,14 @@
+name: Feature request
+description: Suggest an idea for this project
+title: "[Feature]: "
+labels: [':rocket: feature', ':eyes: triage']
+body:
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: >-
+        请提供您想提出的想法的背景，帮助我们理解您的工作内容和目标。
+    validations:
+      required: true
