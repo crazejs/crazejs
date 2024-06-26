@@ -1,5 +1,11 @@
 # @crazejs/tls-sig-api
 
+## 0.0.3
+
+### Patch Changes
+
+- [`0f15d22`](https://github.com/crazejs/crazejs/commit/0f15d22ff868c04b5a2cf08dc84fd92902225eaf) Thanks [@anguer](https://github.com/anguer)! - sync version
+
 ## 0.0.2
 
 ### Patch Changes
