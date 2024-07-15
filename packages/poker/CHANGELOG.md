@@ -1,5 +1,11 @@
 # @crazejs/poker
 
+## 0.0.4
+
+### Patch Changes
+
+- [`1b4a1b0`](https://github.com/crazejs/crazejs/commit/1b4a1b0b3f49b692d94aafbc777c9f34cc0203c3) Thanks [@anguer](https://github.com/anguer)! - disable suit
+
 ## 0.0.3
 
 ### Patch Changes
