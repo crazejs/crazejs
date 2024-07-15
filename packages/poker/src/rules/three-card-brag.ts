@@ -267,7 +267,7 @@ export class ThreeCardBrag {
       isBomb: this.bomb,
       isSpecial235: this.special235,
     });
-    this.cardScore = calcCardScore(this.cards, this.cardType) + this.flowerValue;
+    this.cardScore = calcCardScore(this.cards, this.cardType);
   }
 
   /**
