@@ -1,5 +1,11 @@
 # @crazejs/poker
 
+## 0.0.5
+
+### Patch Changes
+
+- [`b8d1ea3`](https://github.com/crazejs/crazejs/commit/b8d1ea39c45937545962e3fe5fb1b05d86866d20) Thanks [@anguer](https://github.com/anguer)! - fix straight with flush
+
 ## 0.0.4
 
 ### Patch Changes
