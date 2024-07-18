@@ -170,7 +170,7 @@ function getCardType({
   }
 
   // 顺子
-  if (isStraight) {
+  if (isStraight && !isFlush) {
     cardType = CardType.STRAIGHT;
   }
 
