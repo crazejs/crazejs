@@ -167,11 +167,14 @@ function getCardType({
     if (isStraight) {
       cardType = CardType.STRAIGHT_FLUSH;
     }
+
+    return cardType;
   }
 
   // 顺子
-  if (isStraight && !isFlush) {
+  if (isStraight) {
     cardType = CardType.STRAIGHT;
+    return cardType;
   }
 
   // 对子
@@ -182,6 +185,8 @@ function getCardType({
     if (isBomb) {
       cardType = CardType.BOMB;
     }
+
+    return cardType;
   }
 
   return cardType;
