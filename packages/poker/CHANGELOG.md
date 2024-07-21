@@ -1,5 +1,11 @@
 # @crazejs/poker
 
+## 0.0.6
+
+### Patch Changes
+
+- [`bf5dab8`](https://github.com/crazejs/crazejs/commit/bf5dab8dea836d743446660f833bc2133aec9d6e) Thanks [@anguer](https://github.com/anguer)! - fix a32
+
 ## 0.0.5
 
 ### Patch Changes
