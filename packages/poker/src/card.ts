@@ -20,6 +20,10 @@ export class Card {
    * @param value - 牌值，为1~13的数字
    */
   constructor(suit: Suit, value: number) {
+    if (value < 1 || value > COUNT_BY_SUIT) {
+      throw new Error(`Invalid value: ${value}`);
+    }
+
     // 花色
     this.suit = suit;
     // A=1，将1替换为14方便比牌

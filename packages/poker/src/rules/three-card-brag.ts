@@ -88,7 +88,7 @@ function isSpecial235(cards: [Card, Card, Card]) {
  * @param cards
  */
 function getBombValue(cards: [Card, Card, Card]) {
-  return (cards[0].value + CardRadix.STRAIGHT_FLUSH_MAX_VALUE) * 64;
+  return (cards[0].value + CardRadix.STRAIGHT_FLUSH_MAX_VALUE) * 256;
 }
 
 /**
@@ -96,7 +96,8 @@ function getBombValue(cards: [Card, Card, Card]) {
  * @param cards
  */
 function getStraightFlushValue(cards: [Card, Card, Card]) {
-  return (cards[2].value + CardRadix.FLUSH_MAX_VALUE) * 64;
+  // isA32
+  return (cards[0].value * 16 + cards[2].value + CardRadix.FLUSH_MAX_VALUE) * 64;
 }
 
 /**
@@ -112,7 +113,8 @@ function getFlushValue(cards: [Card, Card, Card]) {
  * @param cards
  */
 function getStraightValue(cards: [Card, Card, Card]) {
-  return (cards[2].value + CardRadix.PAIR_MAX_VALUE) * 64;
+  // isA32
+  return (cards[0].value * 16 + cards[2].value + CardRadix.PAIR_MAX_VALUE) * 64;
 }
 
 /**
@@ -247,6 +249,10 @@ export class ThreeCardBrag {
   private readonly bomb: boolean = false;
   private readonly A23: boolean = false;
   private readonly special235: boolean = false;
+
+  static from(...cards: Card[]) {
+    return new this(...cards);
+  }
 
   constructor(...cards: Card[]) {
     if (cards.length !== ThreeCardBrag.COUNT_BY_HOLE_CARDS) {
