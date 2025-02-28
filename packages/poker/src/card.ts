@@ -13,10 +13,11 @@ export class Card {
   suit: Suit;
   value: number;
   number: number;
+  originalValue: number;
 
   /**
    * 创建卡牌对象
-   * @param suit 花色
+   * @param suit 花色，1~4的数字，黑桃、红桃、梅花、方块
    * @param value - 牌值，为1~13的数字
    */
   constructor(suit: Suit, value: number) {
@@ -30,5 +31,7 @@ export class Card {
     this.value = value === 1 ? 14 : value;
     // 唯一，对应每张牌
     this.number = value + (suit - 1) * COUNT_BY_SUIT;
+    // 原始值，A=1
+    this.originalValue = value;
   }
 }
