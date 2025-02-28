@@ -1,5 +1,11 @@
 # @crazejs/poker
 
+## 0.0.7
+
+### Patch Changes
+
+- [`22ef7d6`](https://github.com/crazejs/crazejs/commit/22ef7d63a3f230e0214cf46d3d4344b525fcddf2) Thanks [@anguer](https://github.com/anguer)! - add original value to Card
+
 ## 0.0.6
 
 ### Patch Changes
